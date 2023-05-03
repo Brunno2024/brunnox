@@ -182,6 +182,26 @@ if (chat.audios && m.text.match(/(bendicion|Bendicion|bendición|Bendición)/gi)
 let vn = './media/Bendicion.mp3'
 this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
- 
+
+if (chat.audios && m.text.match(/(Cáncer|cáncer)/gi)) {
+let vn = './media/Cáncer.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+  
+if (chat.audios && m.text.match(/(Chao|chao)/gi)) {
+let vn = './media/Chao.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+  
+if (chat.audios && m.text.match(/(Tetas|tetas)/gi)) {
+let vn = './media/Tetas.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}  
+  
+if (chat.audios && m.text.match(/(S3x0|s3x0)/gi)) {
+let vn = './media/S3x0.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+  
 return !0 }
 export default handler
