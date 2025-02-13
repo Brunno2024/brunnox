@@ -5,14 +5,12 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['51958959882', '👑 Mystic - Creador 👑', true],
-  ['5493532408055', '👑 Mystic - Creador contacto 👑', true],
-  ['50495358190', '👑 Mystic - Collaborator 1 👑', true],
-  ['51958959882']
+  ['5493884873421', '👑 Mystic - Creador 👑', true],
+  ['5491130850938', '👑 Mystic - Creador contacto 👑', true],
 ] // Cambia los numeros que quieras
 global.suittag = ['51958959882'] 
 global.mods = [] 
-global.prems = [] 
+global.prems = [5493884873421] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
